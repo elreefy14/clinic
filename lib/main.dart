@@ -94,6 +94,8 @@ class _ClinicHomePageState extends State<ClinicHomePage> {
           BuildTextFormField(label: 'Grade Level', value: data['grade_level']),
           BuildTextFormField(label: 'Class', value: data['class_name']),
           BuildTextFormField(label: 'Date/Time', value: data['date']),
+//
+         //
           BuildTextFormField(label: 'Reason for Visit', value: data['inc']),
           BuildTextFormField(label: 'Diagnosis', value: data['diagnosis']),
           BuildTextFormField(label: 'Intervention Type', value: data['intervention_type']),
